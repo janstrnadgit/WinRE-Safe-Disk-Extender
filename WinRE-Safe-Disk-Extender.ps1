@@ -76,7 +76,7 @@ if (-not (Test-Path $localWim -PathType Leaf)) {
         }
     }
 }
-
+ 
 if (-not (Test-Path $localWim)) { 
     Write-Warning "!!! Winre.wim nenalezen / Not found!"
     $wimMissing = $true 

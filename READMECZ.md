@@ -21,7 +21,7 @@ Tento skript plne automatizuje proces presunu Recovery oddilu na novy konec disk
     *   Rucni zaloha `Winre.wim` do slozky `C:\Windows\System32\Recovery`.
 *   **Bezpecne skálovani:** Smaze blokujici oddil, roztahne "C:" (ponecha 1GB rezervu) a vytvori novy GPT Recovery oddil.
 *   **Znovuzapnuti:** Vrathi soubor `Winre.wim` na misto a aktivuje prostredi pro obnovu.
-
+ 
 ## 🚀 Jak skript pouzit
 1. Zvetsete disk ve vasi virtualizacni platforme (VMware, Hyper-V, Azure atd.).
 2. Spustte PowerShell jako **Administrator**.

@@ -22,7 +22,7 @@ This script automates the entire process of moving the Recovery partition to the
 *   **Safe Resizing:** Deletes the blocking partition, extends "C:" (leaving 1GB buffer), and creates a new proper GPT Recovery partition.
 *   **Re-activation:** Restores the `Winre.wim` and re-enables the Recovery Environment.
 *   **No Diacritics:** Script comments and outputs are safe for all encoding types (ASCII/UTF-8).
- 
+
 ## 🚀 Usage
 1. Increase the disk size in your virtualization platform (VMware, Hyper-V, Azure, etc.).
 2. Run PowerShell as **Administrator**.
